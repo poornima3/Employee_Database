@@ -1,0 +1,6 @@
+Using IIFE (Immediate Invoked function expression)
+  (async function() { ... })()
+
+Adding emojis on mac: cntrl + cmd + space
+adding emojis on windows: cmd + ;
+
