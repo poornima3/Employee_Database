@@ -61,7 +61,7 @@
     // deleting employee
     if (e.target.tagName === "I") {
       employess = employess.filter((emp) => {
-        String(emp.id) !== e.target.parentNode.id;
+        return String(emp.id) !== e.target.parentNode.id;
       });
 
       if (String(selectedEmployeeId.id) === e.target.parentNode.id) {
